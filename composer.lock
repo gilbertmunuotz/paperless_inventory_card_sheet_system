@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e10477911e5229401f757053b7d70fbb",
+    "packages": [
+        {
+            "name": "rahisi/rahisi-db",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-rahisi/rahisi-DB.git",
+                "reference": "3d707a7920c2d9ce6a659ece7a455d1cd3ec953c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-rahisi/rahisi-DB/zipball/3d707a7920c2d9ce6a659ece7a455d1cd3ec953c",
+                "reference": "3d707a7920c2d9ce6a659ece7a455d1cd3ec953c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0.25"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Rahisi\\RahisiDb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "joshtheone",
+                    "email": "joshtheone70@gmail.com"
+                }
+            ],
+            "description": "this is database quering function",
+            "support": {
+                "issues": "https://github.com/php-rahisi/rahisi-DB/issues",
+                "source": "https://github.com/php-rahisi/rahisi-DB/tree/main"
+            },
+            "time": "2023-05-10T21:19:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "rahisi/rahisi-db": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

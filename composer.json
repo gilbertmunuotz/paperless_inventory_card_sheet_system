@@ -1,0 +1,15 @@
+{
+    "name": "gilbert/finalproject",
+    "description": "final year project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gilbert\\Finalproject\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "rahisi/rahisi-db": "dev-main"
+    }
+}
